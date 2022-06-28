@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView6">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="500dp"
+                android:layout_height="290dp"
+                app:srcCompat="@drawable/grechtwo"
+                tools:layout_editor_absoluteX="-57dp"
+                tools:layout_editor_absoluteY="-5dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Греческий салат"
+                android:textColor="#2F4F4F"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@id/imageView6"
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Главный ингредиент греческого салата — хориатики — фета, традиционный греческий же сыр из овечьего или козьего молока. По консистенции он напоминает твердый творог, а во вкусе имеет приятную ненавязчивую кислинку. В отличие от соленой и резкой брынзы, которой в этом салате часто заменяют фету остальные европейцы, он не забивает собой вкус свежих овощей, оливок и оливкового масла. Традиционно овощи в греческом салате не смешивают с сыром. Фету нарезают крупными толстыми ломтиками и выкладывают поверх всех овощей."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView7"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView6"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Ингридиенты:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Помидоры - 2-3 шт, огурцы свежие - 2 шт, лук красный -1-2 шт, перец болгарский - 2 шт, сыр фета - 200 г, оливки (или маслины) без косточек - 100 г, лимон - 0,5 шт, масло оливковое - по вкусу, соль - по вкусу, перец черный молотый - по вкусу."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView9"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Как готовить:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/textView10"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Подготовьте все необходимые продукты для греческого салата. Все овощи тщательно промойте проточной водой и нарежьте. Помидоры - кубиками. Огурцы - полукружиями.
+Перец болгарский - соломкой.
+Красный лук очистите и нарежьте кольцами. Маслины разрежьте вдоль пополам. Овощи поместите в салатницу, добавьте к ним маслины.
+Практически готовый греческий салат заправьте соком половины лимона и оливковым маслом, посолите и хорошо перемешайте.
+Мягкий сыр нарежьте кубиками.
+Сверху добавьте кусочки феты, поперчите и немного сдобрите оливковым маслом.
+Греческий салат готов! Быстро, полезно и очень вкусно! "
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView15"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#2F4F4F"
+                android:onClick="ClickGl"
+                android:text="Вернуться на главную" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

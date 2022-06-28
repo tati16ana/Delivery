@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:backgroundTint="#F0E68C">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView4">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/pizzatwo" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Пицца Пепперони: классический рецепт"
+                android:textColor="#2F4F4F"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@id/imageView4"
+                />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Тонкий лист хрустящего теста, ароматная паста из налитых солнцем томатов, тонкие слайсы салями и слой нежной Моцареллы – идеальное сочетание характерных для средиземноморского региона продуктов. Оно же является традиционным для приготовления пиццы Пепперони. Рецепт в домашних условиях пошаговый повторить не сложно, следуя простым рекомендациям."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView7"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Подготовьте для замеса теста:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView4"
+                android:layout_below="@id/textView6"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="450 гр. муки пшеничной, 2 гр. дрожжей, 30 мл. оливкового масла, 230 мл. воды, 2 гр. соли."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView9"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Подготовьте для приготовления пиццы:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/textView10"
+                android:layout_marginTop="20dp"/>
+
+
+                android:id="@+id/textView12"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView11"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:text="250 гр. теста для пиццы, 170 гр. салями Пепперони, 170 гр. сыра Моцарелла, 100 мл. томатного соуса, 10 мл. оливкового масла."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Подготовьте для приготовления соуса:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/textView12"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="100 гр. томатов, 3 гр. соли, 2 гр. орегано, 5 гр. листьев базилика, 10 мл. оливкового масла."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView13"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Как готовить:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/textView14"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Чтобы получилась вкусная и быстрая пицца Пепперони, рецепт в домашних условиях пошаговый начните готовить с приготовления теста. Пока тесто будет подходить, освободится время на подготовку начинки.
+Отмерьте указанное количество теплой чистой воды. Разведите в ней дрожжи.
+Просейте муку на стол горкой. Сделайте небольшое углубление, налейте в него масло, добавьте немного соли. Разомните руками, постепенно подливайте воду с дрожжами. Начните замешивать тесто. Месите на столе около 10 минут.
+Сформированное тесто разделите на 3 части. Раскатайте каждую, выложите на противни, на которых будет выпекаться пицца Пепперони. Рецепт в домашних условиях пошаговый продолжите подготовкой начинки.
+Для томатного соуса используйте свежие листья базилика. Промойте, просушите их, мелко нарежьте.
+В чашу блендера выложите томаты. Если получится отмерить чуть больше, не стоит половинить, используйте целый томат.
+Добавьте оливковое масло, базилик, соль и орегано. Измельчите ингредиенты блендером.
+Салями порежьте тонкими слайсами.
+Сыр нарежьте тонко или потрите на терке.
+Теперь расскажем, как формируется пицца Пепперони. Рецепт с фото наглядно демонстрирует вид продукта. А готовится это так: пласт теста смазываем обильно приготовленным в блендере томатным соусом. Сверху на соус выкладывается сыр. На слой сыра кладется по поверхности салями.
+Запекают блюдо в специальных печах при температуре 400 градусов. Узнать такое приготовление легко по характерным обуглившимся участкам. Но поскольку мы готовим в домашних условиях, используйте разогретую духовку до 210 градусов."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView15"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#2F4F4F"
+                android:onClick="ClickGl"
+                android:text="Вернуться на главную" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView3">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/egyrt"
+                tools:layout_editor_absoluteX="226dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Фруктовый салат"
+                android:textColor="#2F4F4F"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_below="@id/imageView3"
+                />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Странно, но фруктовые салаты мы чаще готовим зимой, а не летом. Быть может, потому, что летом фрукты — расходный материал. Зимой же у фруктов появляется дополнительная ценность, поэтому просто нарезать, смешать и подать их на стол не кажется слишком уж утилитарной идеей. Тем более в этом салате сплошные экзоты. Банан, киви, апельсин — кисло-сладкая фруктовая полезность в чистом виде. Плюс легкая заправка из фруктового йогурта, которая, кажется, вовсе не добавляет калорий. Салат можно подавать отдельно, в качестве десерта или как дополнение к блинчикам или утренней каше. Энергетический и витаминный заряд, после такого завтрака слякоть и непогода покажутся мелочью."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView7"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Ингридиенты:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView6"
+                android:layout_below="@id/textView6"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Бананы (1 штука), киви (1 штука), апельсин (1 штука), яблоко (1 штука), груши (1 штука), сливы (1 штука), фруктовый йогурт (2 штуки), грецкие орехи (по вкусу), курага (20 штук), изюм."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView9"
+                android:layout_marginTop="20dp"/>
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView16"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#2F4F4F"
+                android:onClick="ClickGl"
+                android:text="Вернуться на главную" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Как готовить:"
+                android:textColor="#2F4F4F"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/textView10"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:text="Изюм и курагу предварительно замочить на 2–3 часа. Орехи и распаренную курагу мелко нарезать. Все фрукты помыть, очистить от кожуры и семечек, нарезать небольшими кусочками. Выложить слоями нарезанные фрукты в салатник или в порционные креманки, промазывая через один слой йогуртом. Сверху посыпать курагой, изюмом и грецкими орехами."
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@id/textView15"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
